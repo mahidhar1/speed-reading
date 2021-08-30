@@ -1,0 +1,26 @@
+.board {
+  background: hsl(213, 87%, 79%);
+  box-shadow: 0 0 1rem rgb(0 0 0/0.2);
+  border-radius: 0.5rem;
+  height: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.left {
+  grid-column: 1;
+  grid-row: 1;
+}
+.middle {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.right {
+  grid-column: 3;
+  grid-row: 3;
+}
